@@ -10,7 +10,7 @@ From AI Gate, you can access ChatGPT, Gemini, Perplexity, Claude all from one ea
 &nbsp;
 
 <div align="center">
-  <a href="https://aigate.inulute.com">
+  <a href="https://aigate.ezeslucky.com">
     <img src="https://img.shields.io/badge/website-up-brightgreen?style=for-the-badge" alt="Website Badge">
    </a>
 </div>

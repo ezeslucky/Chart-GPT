@@ -9,8 +9,8 @@
     "dist": "electron-builder",
     "obfuscate": "webpack --config webpack.config.js"
   },
-  "repository": "https://github.com/inulute/ai-gate",
-  "author": "inulute",
+  "repository": "https://github.com/ezeslucky/ai-gate",
+  "author": "ezeslucky",
   "license": "GPL-3.0-only",
   "description": "Access AI tools seamlessly using AI Gate",
   "devDependencies": {
@@ -22,8 +22,8 @@
     "webpack-obfuscator": "^3.5.1"
   },
   "build": {
-    "appId": "com.inulute.aigate",
-    "productName": "Inulute AI Gate",
+    "appId": "com.ezeslucky.aigate",
+    "productName": "ezeslucky AI Gate",
     "directories": {
       "output": "release-builds"
     },

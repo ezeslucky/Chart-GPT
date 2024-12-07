@@ -30,7 +30,7 @@
   </main>
 
   <footer>
-    <p>Made with ❤️ by <a href="https://github.com/inulute" class="footer-link" target="_blank">inulute</a></p>
+    <p>Made with ❤️ by <a href="https://github.com/ezeslucky" class="footer-link" target="_blank">ezeslucky</a></p>
   </footer>
 
   <div id="bottomVersionInfo" class="version-info">Version Info</div>
@@ -59,7 +59,7 @@
     async function checkForUpdates() {
       try {
         const currentVersion = await fetch('crrtver.inu').then(response => response.text());
-        const response = await fetch('https://raw.githubusercontent.com/inulute/ai-gate/main/package.json');
+        const response = await fetch('https://raw.githubusercontent.com/ezeslucky/ai-gate/main/package.json');
         const { version: latestVersion } = await response.json();
 
         const versionDisplay = document.getElementById("updateContainer");
@@ -70,13 +70,13 @@
             <button id="updateButton">Update Now</button>
           `;
           document.getElementById("updateButton").addEventListener("click", () => {
-            window.open("https://github.com/inulute/ai-gate/releases/latest", "_blank");
+            window.open("https://github.com/ezeslucky/ai-gate/releases/latest", "_blank");
           });
         } else {
           versionDisplay.innerHTML = `
             <p style="color: lightyellow; font-size: x-small;">
             </p>
-            <a href="https://donate.inulute.com" target="_blank" style="color: rgb(95, 137, 95); text-decoration: underline;">Please consider Donating</a>
+            <a href="https://donate.ezeslucky.com" target="_blank" style="color: rgb(95, 137, 95); text-decoration: underline;">Please consider Donating</a>
           `;
         }
         bottomVersionInfo.innerText = `Version: ${currentVersion}`;
