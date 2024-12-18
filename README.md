@@ -54,8 +54,3 @@ We warmly welcome your feedback to improve the AI Gate. If you encounter any iss
 
 
 
-## 📝 License
-
-AI Gate is released under the GPL-v3 License. Please refer to the [LICENSE](./LICENSE) file for more information.
-
----
